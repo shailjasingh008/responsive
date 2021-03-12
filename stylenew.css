@@ -97,7 +97,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: #111;
     font-size: 35px;
     font-weight: 600;
 }
@@ -129,7 +129,7 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: #111;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -170,9 +170,9 @@ section .title::after{
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    background-size: auto;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    background-size: contain;
 }
 .home .max-width{
     margin: auto 0 auto 30px;
@@ -463,13 +463,5 @@ button{
     /* For mobile phones: */
     [class*="sections "] {
       width: 100%;
-    }
-  }
-
-  @media screen and (max-width: 800px) {
-    .home {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
     }
   }
