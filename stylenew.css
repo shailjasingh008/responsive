@@ -114,7 +114,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #111;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -167,9 +167,9 @@ section .title::after{
 .home{
     display: flex;
     background: url("resize-1615451576311803815jobfair.png") no-repeat center;
-    height: 100vh;
+    height: 85vh;
     color: #fff;
-    min-height: 500px;
+    min-height: 300px;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
     background-size: contain;
