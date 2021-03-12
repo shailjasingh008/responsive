@@ -114,7 +114,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: #111;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -326,7 +326,7 @@ button{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: #2ab26f;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
